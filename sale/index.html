@@ -259,12 +259,12 @@
     .explore-head{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:end;margin-bottom:47px}
     .explore-head p{color:#465652;margin:0;max-width:490px}
     .diagram-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-    .diagram-card{background:#cbd7cc;padding:45px 40px;min-height:450px;position:relative;overflow:hidden}
+    .diagram-card{background:#cbd7cc;padding:45px 40px 55px;min-height:490px;position:relative;overflow:hidden}
     .diagram-card.dark{background:#1c2729;color:var(--white)}
     .diagram-card h3{font:800 41px/1 var(--cond);text-transform:uppercase;margin:10px 0 22px}
     .diagram-card p{font-size:14px;max-width:430px;opacity:.8}
-    .diagram-card svg{width:100%;max-width:520px;height:200px;margin:10px auto 0;display:block}
-    .diagram-card .tiny{position:absolute;bottom:25px;left:40px;color:inherit;opacity:.68}
+    .diagram-card img{display:block;width:100%;height:280px;object-fit:contain;background:#fff;margin:16px auto 18px}
+    .diagram-card .tiny{display:block;color:inherit;opacity:.68}
     .condition-section{padding:125px 0;background:linear-gradient(155deg,#19191a,#0c1011 54%)}
     .condition-top{display:grid;grid-template-columns:1.05fr .95fr;gap:9%;align-items:start;margin-bottom:52px}
     .condition-top p{color:var(--dim)}
@@ -403,7 +403,7 @@
       .feature-grid,.condition-cards,.reviews-grid,.video-grid{grid-template-columns:1fr}.feature{min-height:0;padding:28px}
       .rpm-housing{padding:22px}.rpm-big{font-size:103px}.rpm-intro{flex-direction:column}.rpm-leds span{height:26px}
       .story-photo,.story-photo img{height:420px}.story-photo .photo-label{left:0}.timeline{grid-template-columns:1fr 1fr}
-      .diagram-card{min-height:420px;padding:30px 22px}.diagram-card h3{font-size:35px}.diagram-card .tiny{left:22px;right:22px}
+      .diagram-card{min-height:420px;padding:30px 22px 55px}.diagram-card h3{font-size:35px}.diagram-card img{height:auto;max-height:280px}
       .honesty-note{padding:18px}.gallery-grid{grid-auto-rows:190px;gap:8px}.gallery-item .photo-name{font-size:21px;left:12px}.gallery-item.large .photo-name{font-size:34px}.gallery-item .photo-no{left:12px;top:12px}.gallery-item .plus{right:10px;top:10px}
       .gallery-note{align-items:start;flex-direction:column}.video-cover{height:230px}.spec-table dl{grid-template-columns:1fr;gap:3px;padding:12px 0}
       .closing{min-height:620px}.closing .section-title{font-size:clamp(72px,17vw,108px)}.closing-actions .btn{width:100%}
@@ -580,8 +580,8 @@
       <div class="container">
         <div class="explore-head" data-reveal><div><span class="eyebrow">Pod powierzchnią</span><h2 class="section-title" id="inzy-title">Zbudowana<br><em>na zakręty.</em></h2></div><p>S2000 nie potrzebowała wielkiego V8, by stać się ikoną. Zadziałało połączenie konstrukcji nadwozia, umieszczenia silnika, układu jezdnego i precyzyjnej skrzyni. Oto dwie inżynierskie ciekawostki.</p></div>
         <div class="diagram-grid">
-          <article class="diagram-card" data-reveal><span class="eyebrow">01 / struktura nadwozia</span><h3>High X-Bone</h3><p>Wysoki centralny tunel łączy się ze strukturą przednią i tylną. Rozwiązanie zwiększa sztywność roadstera bez sztywnego dachu.</p><svg viewBox="0 0 560 210" role="img" aria-label="Poglądowy schemat struktury X-Bone, wzmocnienia podłużne i środkowy tunel"><g fill="none" stroke="#63796e" stroke-width="2"><path d="M25 20 L150 20 L235 62 L325 62 L410 20 L535 20 L535 190 L410 190 L325 148 L235 148 L150 190 L25 190Z"/><path d="M25 105 H535" stroke-dasharray="7 7"/></g><path d="M40 40L205 84L355 84L520 40 M40 170L205 126L355 126L520 170" stroke="#d25d3b" stroke-width="17" fill="none" stroke-linecap="square"/><path d="M210 78H350V132H210Z" fill="#475b55"/><path d="M75 38V172M485 38V172" stroke="#63796e" stroke-width="9"/><circle cx="95" cy="105" r="12" fill="#e1f1de"/><circle cx="465" cy="105" r="12" fill="#e1f1de"/><text x="280" y="110" fill="#fff" font-size="15" text-anchor="middle" font-family="monospace">TUNEL</text></svg><span class="tiny">Schemat ideowy — nie jest rysunkiem fabrycznym.</span></article>
-          <article class="diagram-card dark" data-reveal><span class="eyebrow">02 / filozofia układu FR</span><h3>Motor cofnięty<br>za przednią oś</h3><p>Takie rozmieszczenie masy sprzyja wyważeniu prowadzenia. Honda komunikowała dla S2000 idealny rozkład przód/tył 50:50.</p><svg viewBox="0 0 560 210" role="img" aria-label="Uproszczony schemat wyważenia 50 do 50 przy przednio-centralnym silniku i tylnym napędzie"><path d="M60 45H500M60 165H500" stroke="#7b928c" stroke-width="1" stroke-dasharray="8 5"/><path d="M100 80Q160 25 235 65L340 75Q445 65 470 105L455 138H95Z" fill="none" stroke="#a9c7b8" stroke-width="4"/><circle cx="165" cy="145" r="27" fill="#0e1516" stroke="#a9c7b8" stroke-width="6"/><circle cx="406" cy="145" r="27" fill="#0e1516" stroke="#a9c7b8" stroke-width="6"/><rect x="215" y="87" width="86" height="36" fill="#e07b56" rx="3"/><path d="M301 105H406" stroke="#f79b7b" stroke-width="6" stroke-dasharray="8 5"/><path d="M280 40V183" stroke="#8cae9e" stroke-width="1" stroke-dasharray="5 6"/><text x="225" y="29" text-anchor="middle" font-size="22" font-family="monospace" fill="#e3f0e9">50%</text><text x="350" y="29" text-anchor="middle" font-size="22" font-family="monospace" fill="#e3f0e9">50%</text><text x="257" y="108" font-size="11" text-anchor="middle" fill="#15191a" font-family="monospace">ENGINE</text></svg><span class="tiny">Uproszczony schemat koncepcyjny, proporcje nie w skali.</span></article>
+          <article class="diagram-card" data-reveal><span class="eyebrow">01 / struktura nadwozia</span><h3>High X-Bone</h3><p>Wysoki centralny tunel łączy się ze strukturą przednią i tylną. Rozwiązanie zwiększa sztywność roadstera bez sztywnego dachu.</p><img src="./images/diagrams/honda-s2000-high-x-bone.png" width="525" height="377" loading="lazy" alt="Fabryczny rysunek konstrukcji High X-Bone Hondy S2000 z zaznaczonym środkowym tunelem i progami"><span class="tiny">Schemat konstrukcji High X-Bone. Źródło: Honda R&amp;D.</span></article>
+          <article class="diagram-card dark" data-reveal><span class="eyebrow">02 / filozofia układu FR</span><h3>Motor cofnięty<br>za przednią oś</h3><p>Takie rozmieszczenie masy sprzyja wyważeniu prowadzenia. Honda komunikowała dla S2000 idealny rozkład przód/tył 50:50.</p><img src="./images/diagrams/honda-s2000-engine-layout.png" width="552" height="300" loading="lazy" alt="Profil Hondy S2000 z zaznaczonym silnikiem za przednią osią, układem napędowym i wymiarami samochodu"><span class="tiny">Układ przednio-centralny i wymiary S2000. Źródło: Honda R&amp;D.</span></article>
         </div>
       </div>
     </section>
